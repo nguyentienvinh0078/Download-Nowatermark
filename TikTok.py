@@ -259,12 +259,12 @@ class TikTok():
             else: break
             
 def main():
-    # try:
-    tikTok = TikTok()
-    tikTok.main()
-    # except Exception as bug:
-    #     print(bug)
-        # os.system('pause')
+    try:
+        tikTok = TikTok()
+        tikTok.main()
+    except Exception as bug:
+        print(bug)
+        os.system('pause')
 
 if __name__ == '__main__':
     main()
