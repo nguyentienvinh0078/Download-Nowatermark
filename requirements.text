@@ -3,3 +3,4 @@ pyinstaller==4.10
 autopep8
 requests
 jsons
+auto-py-to-exe
